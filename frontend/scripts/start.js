@@ -19,7 +19,7 @@ const fs = require('fs');
 const chalk = require('react-dev-utils/chalk');
 const webpack = require('webpack');
 const checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
-const { createCompiler} = require('react-dev-utils/WebpackDevServerUtils');
+const { createCompiler } = require('../config/WebpackDevServerUtils');
 const paths = require('../config/paths');
 const configFactory = require('../config/webpack.config');
 
